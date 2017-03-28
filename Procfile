@@ -1,1 +1,1 @@
-web: python sparkmessage.py $PORT
+web: python sparkmessage.py
