@@ -29,7 +29,8 @@ HEADERS = {'Authorization':'Bearer ' + AUTH}
 BASE_URL = "https://api.ciscospark.com/v1/"
 ROOMS_URL = BASE_URL+"rooms"
 MESSAGES_URL = BASE_URL+"messages"
-ROOM_ID = "05d3bfaf-3bca-3767-b767-7c00c10e8a1c"
+#ROOM_ID = "05d3bfaf-3bca-3767-b767-7c00c10e8a1c"
+ROOM_ID = "12a8f8e0-2922-11e7-9841-0b019e058365"
 
 @app.route('/transcription', methods=['POST', 'PATCH'])
 def webhook():
